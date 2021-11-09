@@ -221,29 +221,44 @@ body{
         
     }
 }
-.experience{
+
     .margin-negative{
-        margin-bottom: -8%;
+        margin-bottom: -4.5%;
         @media (min-width:768px) {
-            margin-bottom: -4%;
+            margin-bottom: -3.5%;
         }
         @media (min-width:1440px) {
-            margin-bottom: -1.2%;
+             margin-bottom: -1.5%;
         }
     }
-}
-.info{
+
+
+.experience{
     background-image: url(./img/footer.png);
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
     background-size: cover;
-    height: 42.8rem;
     text-align: center;
     padding: 9.2rem 2.4rem 7.2rem;
+   
+}
+.info{
     @media (min-width:1440px) {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .info__heading{
+        @media (min-width:1440px) {
+            text-align: left;
+            flex-basis: 32%;
+        }
+    }
+    .info__par{
+        @media (min-width:1440px) {
+            text-align: left;
+            flex-basis: 32%;
+        }
     }
     .info__par{
         margin-top: 2.4rem;
