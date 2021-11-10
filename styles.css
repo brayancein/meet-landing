@@ -331,17 +331,7 @@ body {
 }
 
 .margin-negative {
-  margin-bottom: -4.5%;
-}
-@media (min-width: 768px) {
-  .margin-negative {
-    margin-bottom: -3.5%;
-  }
-}
-@media (min-width: 1440px) {
-  .margin-negative {
-    margin-bottom: -1.5%;
-  }
+  margin-bottom: -2.6rem;
 }
 
 .experience {
