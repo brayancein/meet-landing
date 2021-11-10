@@ -203,15 +203,16 @@ body{
     
 
     @media (min-width:768px) {
-        display: flex;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: none;
         gap: 3rem;
-        // padding: 0 3.9rem;
+        padding: 0 3.9rem;
     }
+    
     @media (min-width:1440px) {
-        display: flex;
-        gap: 3rem;
         padding: 0 16.5rem;
      }
+
 
     .galery__img{
         width: 100%;
